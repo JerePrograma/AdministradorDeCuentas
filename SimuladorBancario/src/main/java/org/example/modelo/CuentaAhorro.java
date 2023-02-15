@@ -7,7 +7,6 @@ public class CuentaAhorro extends CuentaBase implements Cuenta {
         super(numeroCuenta, fechaCreacion, balance, interes);
     }
 
-
     @Override
     public void retirar(float monto) {
         if (monto >= this.getBalance()) {
